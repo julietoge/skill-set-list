@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    text-align: center;
+    max-width: 100%;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 8px auto 18px;
+    border-bottom: 1px solid #000;
+    width: 20%;
+}
+
+.skill-set_control {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 100%;
+    line-height: 1.58;
+    margin: 6px;
+    border: 1px solid #000;
+}
+
+.skill-wrapper {
+    padding: 8px 0 18px;
+}
+
+.level {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #000;
+    color: aliceblue;
+    padding: 8px 0;
+}
+
+.html-level {
+    background-color: teal;
+    width: 100%;
+}
+
+.CSS-level {
+    background-color: chocolate;
+    width: 100%;
+}
+
+.JavaScript-level {
+    background-color: darkgoldenrod;
+    width: 60%;
+}
+
+.Git-level {
+    background-color: olive;
+    width: 80%;
+}
+
+.React-level {
+    background-color: saddlebrown;
+    width: 40%;
+}
+
+@media screen and (max-width: 725px) {
+    header h1 {
+        width: 50%;
+    }
+}
